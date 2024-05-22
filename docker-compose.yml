@@ -2,7 +2,7 @@
 version: '3.8'
 x-common:
   database: &db-environment
-    POSTGRES_DB: crayon_kali crayon_dan crayon_sam crayon_nik crayon_shared
+    POSTGRES_DB: crayon_kali,crayon_dan,crayon_sam,crayon_nik,crayon_shared
     POSTGRES_USER: &pg-user crayon
     POSTGRES_PASSWORD: spiny-settee-hullo
     TZ: Australia/Melbourne
