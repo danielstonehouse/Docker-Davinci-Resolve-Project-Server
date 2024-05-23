@@ -10,7 +10,7 @@ x-common:
   backup: &backup-environment
     POSTGRES_DB: crayon_kali,crayon_dan,crayon_sam,crayon_nik,crayon_shared
     POSTGRES_USER: &pg-user crayon
-    POSTGRES_PASSWORD: spiny-settee-hullo
+    POSTGRES_PASSWORD: craycray123
     SCHEDULE: "@daily"
     BACKUP_KEEP_DAYS: 30
     BACKUP_KEEP_WEEKS: 4
